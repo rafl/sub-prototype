@@ -8,4 +8,6 @@ all_from 'lib/Sub/Prototype.pm';
 requires 'XSLoader';
 requires 'Sub::Exporter';
 
+extra_tests();
+
 WriteAll;
