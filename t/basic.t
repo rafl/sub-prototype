@@ -3,9 +3,8 @@ use warnings;
 use Test::More tests => 4;
 use Sub::Prototype;
 
-my $my_grep;
 BEGIN {
-    $my_grep = sub {
+    my $my_grep = sub {
         my $code = shift;
         my @ok;
         $code->() and push @ok, $_ for @_;
