@@ -36,6 +36,8 @@ Sub::Prototype - Set a subs prototype
 
 =head1 FUNCTIONS
 
+This module only has one function, which is also exported by default:
+
 =head2 set_prototype(\&coderef, $prototype)
 
     set_prototype(\&some_function, '$$');
