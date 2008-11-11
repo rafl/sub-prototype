@@ -3,6 +3,8 @@ use warnings;
 
 package Sub::Prototype;
 
+require 5.008001;
+
 use XSLoader;
 
 our $VERSION = '0.01';
